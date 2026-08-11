@@ -1,0 +1,20 @@
+.info-hero{padding:78px 0 56px;background:linear-gradient(135deg,#fff8ef 0%,#f7f0ff 100%);border-bottom:1px solid rgba(0,0,0,.06)}
+.info-wrap{width:min(1100px,calc(100% - 36px));margin:0 auto}
+.info-kicker{font-size:12px;letter-spacing:.18em;font-weight:800;text-transform:uppercase;margin:0 0 12px;color:#7b4bb7}
+.info-hero h1{font-size:clamp(34px,5vw,58px);line-height:1.12;margin:0 0 16px}
+.info-lead{max-width:760px;line-height:1.8;color:#666;margin:0}
+.info-body{padding:18px 0 72px}
+.info-section{padding:42px 0;border-bottom:1px solid rgba(0,0,0,.06)}
+.info-section:nth-child(even){background:#f6faea}
+.info-section h2,.info-section h3{margin:0 0 14px;line-height:1.35}
+.info-section p{line-height:1.9;color:#555;margin:0 0 12px}
+.info-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:28px}
+.info-card{display:block;padding:24px;border:1px solid #dce7c1;border-radius:18px;background:#fff;text-decoration:none;color:inherit;transition:.2s ease}
+.info-card:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,0,0,.08)}
+.info-card small{display:block;margin-bottom:8px;color:#888}
+.info-card strong{display:block;font-size:20px;line-height:1.45;margin-bottom:10px}
+.info-card span{display:block;line-height:1.7;color:#666}
+.info-card .more{margin-top:14px;color:#7b4bb7;font-weight:800}
+.region-pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.region-pills a{display:inline-flex;padding:10px 14px;border:1px solid #dce7c1;border-radius:999px;text-decoration:none;color:inherit;background:#fff}
+@media(max-width:760px){.info-grid{grid-template-columns:1fr}.info-hero{padding:56px 0 40px}}
